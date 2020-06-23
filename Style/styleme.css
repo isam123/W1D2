@@ -19,6 +19,12 @@
     color: gold;
     font-size: 20px;
 }
+p::first-letter {
+    font-weight: bold;
+    color:white;
+    font-size: large;
+  }
+
 
 h1 {
     
@@ -42,21 +48,35 @@ h1 {
 }
 .ls-section a {
     color: salmon;
+    text-decoration: none;
+}
+
+.ls-section a:hover {
+
+    text-decoration: underline;
+
 }
 
 .dv-moods {
     
-    display: flexbox;
+    display: flex;
+    flex-direction: row;
    
     
 }
 
-.dv-moods img, h3 {
+.dv-moods img {
     width: 20%;
+    
     display: inline;
     color: gold;
 
 } 
+
+.dv-moods img, h3{
+    display: inline;
+    color: gold;
+}
 footer {
     text-align: center;
     margin-top: 60px;
@@ -67,3 +87,4 @@ footer img {
 
     width:10%;
 }
+
