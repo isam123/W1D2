@@ -33,7 +33,7 @@ h1 {
     font-family:Arial, Helvetica, sans-serif,Verdana, Trebuchet MS,Georgia, Tahoma, Courier ;
 }
 
-.ls-section h1 {
+.ls-section h1 ,h2 {
     color:white;
 }
 .ls-section li,p {
