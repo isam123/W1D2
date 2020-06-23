@@ -52,8 +52,6 @@ h1 {
 }
 
 .dv-moods img, h3 {
-
-    display:table-column;
     width: 20%;
     display: inline;
     color: gold;
