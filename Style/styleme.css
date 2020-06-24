@@ -61,14 +61,19 @@ h1 {
     
     display: flex;
     flex-direction: row;
+    margin-top: 10px;;
    
     
 }
+dt {
+    color: white;
+}
 
 .dv-moods img {
-    width: 20%;
-    
-    display: inline;
+
+     
+    display: inline-block;
+    width: 10%;
     color: gold;
 
 } 
